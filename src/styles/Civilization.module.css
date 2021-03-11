@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    padding: 5px;
+  }
+}
